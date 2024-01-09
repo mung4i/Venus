@@ -1,0 +1,9 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 1440 320'>
+echo ##active_line2##
+  <path fill='#6B46C1' d='M0,96L60,128C120,160,240,224,360,218.7C480,213,600,139,720,122.7C840,107,960,149,1080,165.3C1200,181,1320,171,1380,165.3L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z'></path>
+echo ##active_line3##
+  <circle cx='400' cy='100' r='50' fill='#ffffff' />
+echo ##active_line4##
+</svg>
+echo ##active_line5##
+
