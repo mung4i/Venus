@@ -1,21 +1,49 @@
-# Venus
-echo "##active_line2##"
+# Kalendar
+Kalendar is calendar view for SwiftUI
 
-echo "##active_line3##"
+## About Kalendar
+Kalendar is a SwiftUI framework specifically designed for creating customizable calendars.
+
 ## Installation
-echo "##active_line4##"
 
-echo "##active_line5##"
-[Venus](http://EXAMPLE/Venus.git) is available through [CocoaPods](https://cocoapods.org). Add the following line to your Podfile:
-echo "##active_line6##"
+### [Swift Package Manager](https://swift.org/package-manager/)
 
-echo "##active_line7##"
-```ruby
-echo "##active_line8##"
-pod "Venus"
-echo "##active_line9##"
+-   From url : `https://github.com/mung4i/Venus`
+
+or
+
+-   Package.swift
+
+```swift
+.package(name: "Kalendar", url: "https://github.com/mung4i/Venus", from: "0.0.1")
 ```
-echo "##active_line10##"
+[Venus](https://github.com/mung4i/Venus.git) is available through [CocoaPods](https://cocoapods.org). 
 
-echo "##active_line11##"
-Then run `pod install`.
+### [CocoaPods](https://cocoapods.org)
+
+```ruby
+pod 'Kalendar'
+```
+
+### import
+
+```swift
+import Kalendar
+```
+## Features
+
+-   Infinite scroll
+-   Support horizontal and vertical scroll
+-   Full custom calendar cell
+-   Pager lock
+-   Starting the week with Sunday or Monday
+
+## Example
+
+### Basic
+
+```swift
+CalendarView() { date in
+    Text("\(date.day)")
+}
+```
