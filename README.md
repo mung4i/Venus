@@ -17,9 +17,9 @@ or
 ```swift
 .package(name: "Kalendar", url: "https://github.com/mung4i/Venus", from: "0.0.1")
 ```
-[Venus](https://github.com/mung4i/Venus.git) is available through [CocoaPods](https://cocoapods.org). 
+[Kalendar](https://github.com/mung4i/Venus.git) is available through [CocoaPods](https://cocoapods.org/pods/Kalendar). 
 
-### [CocoaPods](https://cocoapods.org)
+### [CocoaPods](https://cocoapods.org/pods/Kalendar)
 
 ```ruby
 pod 'Kalendar'
