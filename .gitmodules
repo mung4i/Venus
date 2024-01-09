@@ -1,0 +1,3 @@
+[submodule "Example/BookifySync"]
+	path = Example/BookifySync
+	url = https://github.com/mung4i/BookifySync
