@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "Venus"
+  s.name             = "Kalendar"
   s.version          = "0.0.1"
   s.summary          = "Swift UI calendar"
   s.description      = "💎"
